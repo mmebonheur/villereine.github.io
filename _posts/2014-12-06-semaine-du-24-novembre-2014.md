@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Vlog #3 - Semaine du 24 novembre 2014"
+excerpt: false
 ---
 
 Cette semaine, on rénove la chambre! Et Escher ne peut s'empêcher d'être dans le vlog... #SoFamous

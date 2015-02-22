@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Vlog #1 - Semaine du 3 novembre 2014"
+excerpt: false
 ---
 
 Cette semaine, Michel est à Toronto pour trouver un appart! On vous parle de 2 stratégies pour trouver des apparts :)
