@@ -1,6 +1,5 @@
 ---
 layout: default
-title: Accueil
 ---
 
 <div class="posts">
@@ -12,26 +11,28 @@ title: Accueil
       </a>
     </h1>
 
-    <span class="post-date">{{ post.date | date_to_string }}</span>
+    <span class="post-date">{{ post.date | date: "%Y-%m-%d" }}</span>
 
     {{ post.excerpt }}
+
+    <p><a href="{{ post.url }}">Lire la suite &raquo;</a></p>
   </div>
   {% endfor %}
 </div>
 
 <div class="pagination">
   {% if paginator.next_page %}
-    <a class="pagination-item older" href="/page{{paginator.next_page}}">Older</a>
+    <a class="pagination-item older" href="/page{{paginator.next_page}}">Articles passés</a>
   {% else %}
-    <span class="pagination-item older">Older</span>
+    <span class="pagination-item older">Articles passés</span>
   {% endif %}
   {% if paginator.previous_page %}
     {% if paginator.page == 2 %}
-      <a class="pagination-item newer" href="/">Newer</a>
+      <a class="pagination-item newer" href="/">Articles récents</a>
     {% else %}
-      <a class="pagination-item newer" href="/page{{paginator.previous_page}}">Newer</a>
+      <a class="pagination-item newer" href="/page{{paginator.previous_page}}">Articles récents</a>
     {% endif %}
   {% else %}
-    <span class="pagination-item newer">Newer</span>
+    <span class="pagination-item newer">Articles récents</span>
   {% endif %}
 </div>
