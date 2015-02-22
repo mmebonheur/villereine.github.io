@@ -58,7 +58,17 @@ html {
   padding: 2rem 1rem;
   color: rgba(255,255,255,.5);
   background-color: #202020;
+  /*background: url("/images/Toronto's_CN_Tower.jpg") center top no-repeat;*/
 }
+/*.sidebar:after {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(0,0,0,0.2);
+}*/
 @media (min-width: 48rem) {
   .sidebar {
     position: fixed;
@@ -80,7 +90,7 @@ html {
   color: #fff;
   margin-top: 0;
   font-family: "PT Serif", serif;
-  font-size: 3.25rem;
+  font-size: 2.5rem;
 }
 
 /* Sidebar nav */
