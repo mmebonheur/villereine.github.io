@@ -59,6 +59,7 @@ html {
   color: rgba(255,255,255,.5);
   background-color: #202020;
   background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("/images/Toronto's_CN_Tower.jpg") center top no-repeat;
+  background-size: auto 100%;
 }
 @media (min-width: 48rem) {
   .sidebar {
