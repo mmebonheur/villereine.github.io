@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Bouffe du Québec: la poutine de Fancy Franks"
+category: "Bouffe du Québec"
 ---
 
 Dans le cadre de [La Poutine Week](http://lapoutineweek.com/toronto), plusieurs établissements de Toronto ont décidé de participer. Contrairement à ce qu'on pourrait penser, trouver un endroit pour dévorer une poutine dans la Ville Reine n'est pas très difficile, beaucoup de restaurants l'offrent à leur menu.

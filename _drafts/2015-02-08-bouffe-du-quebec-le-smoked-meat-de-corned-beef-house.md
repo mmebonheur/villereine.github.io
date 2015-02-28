@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Bouffe du Québec: le smoked meat de Corned Beef House"
+category: "Bouffe du Québec"
 ---
 
 TODO: photo, menu, etc.

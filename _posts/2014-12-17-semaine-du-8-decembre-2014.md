@@ -2,6 +2,7 @@
 layout: post
 title: "Vlog #5 partie 1 - Semaine du 8 décembre 2014"
 excerpt: false
+category: vlogs
 ---
 
 Cette semaine, on est à Toronto et on cherche un appart!

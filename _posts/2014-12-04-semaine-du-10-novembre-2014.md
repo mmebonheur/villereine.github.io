@@ -2,6 +2,7 @@
 layout: post
 title: "Vlog #2 - Semaine 10 novembre 2014"
 excerpt: false
+category: vlogs
 ---
 
 Cette semaine, on met le condo en vente!

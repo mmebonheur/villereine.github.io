@@ -2,6 +2,7 @@
 layout: post
 title: "Vlog #4 - Semaine du 1er décembre 2014"
 excerpt: false
+category: vlogs
 ---
 
 Cette semaine, on termine les rénos et le ménage!
