@@ -9,7 +9,7 @@ permalink:        /:title #pretty
 title:            Ville Reine
 tagline:          'Blogue de 2 montréalais exilés à Toronto'
 description:      'Blogue de 2 montréalais exilés à Toronto.'
-url:              http://hyde.getpoole.com
+url:              http://blog.villereine.ca
 
 author:
   name:           'Michel Billard'

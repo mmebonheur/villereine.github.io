@@ -8,18 +8,44 @@ layout: default
   {{ content }}
 </div>
 
+<div class="sharing">
+  <a href="http://twitter.com/share?text={{ page.title | replace:' ','%20' | replace:':','%3A' }}&amp;url={{ site.url }}{{ page.url }}" onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;" class="btn btn-twitter"><i class="fa fa-twitter"></i>Twitter</a>
+
+  <a href="https://www.facebook.com/sharer/sharer.php?u={{ site.url }}{{ page.url }}" onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;" class="btn btn-facebook"><i class="fa fa-facebook"></i>Facebook</a>
+
+  <a href="https://plus.google.com/share?url={{ site.url }}{{ page.url }}" onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;" class="btn btn-google"><i class="fa fa-google-plus"></i>Google+</a>
+
+  <p class="permalink">
+    Lien permanent: <a href="{{ site.url }}{{ page.url }}">{{ site.url }}{{ page.url }}</a>
+  </p>
+</div>
+
 <div class="related">
-  <h2>Related Posts</h2>
+  <h4>Articles connexes</h2>
   <ul class="related-posts">
     {% for post in site.related_posts limit:3 %}
       <li>
-        <h3>
-          <a href="{{ post.url }}">
-            {{ post.title }}
-            <small>{{ post.date | date: "%Y-%m-%d" }}</small>
-          </a>
-        </h3>
+        <a href="{{ post.url }}">
+          {{ post.title }}
+          <small>{{ post.date | date: "%Y-%m-%d" }}</small>
+        </a>
       </li>
     {% endfor %}
   </ul>
+</div>
+
+<div class="comments">
+  <div id="disqus_thread"></div>
+  <script type="text/javascript">
+      /* * * CONFIGURATION VARIABLES * * */
+      var disqus_shortname = 'villereine';
+
+      /* * * DON'T EDIT BELOW THIS LINE * * */
+      (function() {
+          var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+          dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+          (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+      })();
+  </script>
+  <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
 </div>
