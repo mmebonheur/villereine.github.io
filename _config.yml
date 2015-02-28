@@ -15,4 +15,14 @@ author:
   name:           'Michel Billard'
   url:            https://twitter.com/gogosse
 
+social_medias:
+  - url: "http://twitter.com/villereineca"
+    slug: "twitter"
+  - url: "http://facebook.com/villereine"
+    slug: "facebook"
+  - url: "http://instagram.com/villereine"
+    slug: "instagram"
+  - url: "http://youtube.com/user/villereine"
+    slug: "youtube"
+
 paginate:         5

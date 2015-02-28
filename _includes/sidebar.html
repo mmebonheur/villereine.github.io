@@ -3,6 +3,16 @@
     <div class="sidebar-about">
       <h1><a href="/">{{ site.title }}</a></h1>
       <p class="lead">{{ site.description }}</p>
+
+      <p class="social-medias">
+        {% for media in site.social_medias %}
+          <a href="{{ media.url }}" target="_blank" class="social social_solid {{ media.slug }}">
+            <i class="fa fa-{{ media.slug }}"></i>
+          </a>
+        {% endfor %}
+        <a href="{{ site.url }}/atom.xml" target="_blank" class="social social_solid rss">
+          <i class="fa fa-rss"></i>
+        </a>
     </div>
   </div>
 
