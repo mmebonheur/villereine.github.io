@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Bouffe du Québec: la poutine de Fancy Franks"
+cover: /2015/02/fancy-franks_mini.jpg
 category: "Bouffe du Québec"
 ---
 

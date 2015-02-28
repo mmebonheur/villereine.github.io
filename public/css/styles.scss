@@ -10,11 +10,18 @@
 
 .sidebar {
   color: rgba(255,255,255,.7);
-  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("/images/Toronto's_CN_Tower.jpg") center top no-repeat;
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("/images/2014/12/Toronto-skyline_cropped.jpg") center bottom no-repeat;
+}
+@media (min-width: 48rem) {
+  .sidebar {
+    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("/images/Toronto's_CN_Tower_mini.jpg") center top no-repeat;
+  }
 }
 
 .social-medias {
   text-align: justify;
+  width: 60%;
+  margin: 0 auto 1rem;
 
   &:before {
     content: '';
@@ -27,9 +34,49 @@
     display: inline-block;
     width: 100%;
   }
-  // a + a {
-  //   margin-left: 0.5em;
-  // }
+}
+@media (min-width: 48rem) {
+  .social-medias {
+    width: 100%;
+    margin: 0 0 1rem;
+  }
+}
+
+// Cover
+// ----------
+
+.cover {
+  height: 240px;
+  background-position: center center;
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  margin: 1rem;
+  margin-bottom: 0;
+
+  .posts & {
+    display: block;
+    height: 240px;
+    margin-left: 0;
+  }
+}
+@media (min-width: 48rem) {
+  .cover {
+    height: 360px;
+    margin: 0 0 0.5rem 18rem;
+  }
+}
+
+.content {
+  padding-top: 1rem;
+}
+@media (min-width: 48rem) {
+  .content {
+    padding-top: 4rem;
+
+    &.with-cover {
+      padding-top: 1rem;
+    }
+  }
 }
 
 // Post
@@ -37,6 +84,10 @@
 
 .post {
   margin-bottom: 2em;
+
+  iframe {
+    max-width: 100%;
+  }
 }
 
 .sharing {

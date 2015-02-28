@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Bienvenue sur Ville Reine!
-image: "/content/images/2014/12/Toronto-skyline_cropped.jpg"
+cover: /2014/12/Toronto-skyline_cropped.jpg
 ---
 
 Bienvenue sur notre blogue! Nous sommes Michel & Julie, deux montréalais exilés à Toronto (la ville reine du Canada) pour le travail. Tant qu'à vivre une expérience aussi grandiose, nous nous sommes dit que ce serait chouette de créer ce blogue et ce, pour différentes raisons:
