@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Se rendre à Toronto en avion
+cover: /2014/12/airplane-flight-travelling-3486_mini.jpg
 ---
 
 _Cet article fait partie d'une série décrivant les différents modes de transports disponibles pour se rendre à Toronto à partir de Montréal._
