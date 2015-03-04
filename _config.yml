@@ -26,3 +26,6 @@ social_medias:
     slug: "youtube"
 
 paginate:         5
+
+gems:
+  - jekyll-sitemap
