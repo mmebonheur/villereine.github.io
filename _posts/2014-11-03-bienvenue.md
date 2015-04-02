@@ -18,7 +18,7 @@ Très simple! Nous avons mis en place une multitude de plateformes qui accueille
 
 * YouTube: [villereine](https://youtube.com/user/villereine)
 * Facebook: [villereine](https://www.facebook.com/villereine)
-* Twitter: [@villereineca](https://twitter.com/villereineca)
+* Twitter: [@villereine](https://twitter.com/villereine)
 * Instagram: [villereine](http://instagram.com/villereine)
 
 ### Commentaires ou suggestions?
