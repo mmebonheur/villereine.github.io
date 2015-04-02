@@ -9,7 +9,7 @@ Blogue de 2 montréalais exilés à Toronto
 
 Blogue: [www.villereine.ca](http://www.villereine.ca)<br>
 Facebook: [villereine](http://www.facebook.com/villereine)<br>
-Twitter: [@villereineca](http://www.twitter.com/villereineca)<br>
+Twitter: [@villereine](http://www.twitter.com/villereine)<br>
 Instagram: [@villereine](http://www.instagram.com/villereine)<br>
 YouTube: [villereine](http://www.youtube.com/user/villereine)
 
