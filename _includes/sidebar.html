@@ -1,44 +1,17 @@
-<div class="sidebar">
-  <div class="container">
-    <div class="sidebar-about">
-      <h1><a href="/">{{ site.title }}</a></h1>
-      <p class="lead">{{ site.description }}</p>
+<aside class="sidebar show-lg">
+  {% include title.html %}
 
-      <p class="social-medias">
-        {% for media in site.social_medias %}
-          <a href="{{ media.url }}" target="_blank" class="social social_solid {{ media.slug }}">
-            <i class="fa fa-{{ media.slug }}"></i>
-          </a>
-        {% endfor %}
-        <a href="{{ site.url }}/atom.xml" target="_blank" class="social social_solid rss">
-          <i class="fa fa-rss"></i>
-        </a>
-    </div>
+  <div class="widget">
+    <script src="https://apis.google.com/js/platform.js"></script>
+    <div class="g-ytsubscribe" data-channel="VilleReine" data-layout="full" data-count="default"></div>
   </div>
 
-  <div class="container sidebar-sticky">
-    <ul class="sidebar-nav">
-      <li class="sidebar-nav-item{% if page.title == "Accueil" %} active{% endif %}">
-        <a href="/">Accueil</a>
-      </li>
-
-      {% comment %}
-        The code below dynamically generates a sidebar nav of pages with
-        `layout: page` in the front-matter. See readme for usage.
-      {% endcomment %}
-
-      {% assign pages_list = site.pages %}
-      {% for node in pages_list %}
-        {% if node.title != null %}
-          {% if node.layout == "page" %}
-            <li class="sidebar-nav-item{% if page.url == node.url %} active{% endif %}">
-              <a href="{{ node.url }}">{{ node.title }}</a>
-            </li>
-          {% endif %}
-        {% endif %}
-      {% endfor %}
-    </ul>
-
-    <p>&copy; {{ site.time | date: '%Y' }}. Tous droits réservés.</p>
+  <div class="widget">
+    <a href="https://twitter.com/VilleReine" class="twitter-follow-button" data-show-count="false" data-lang="fr" data-size="large">Suivre @VilleReine</a>
+  <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
   </div>
-</div>
+
+  <div class="widget">
+    <div class="fb-page" data-href="https://www.facebook.com/villereine" data-hide-cover="false" data-show-facepile="true" data-show-posts="true"><div class="fb-xfbml-parse-ignore"><blockquote cite="https://www.facebook.com/villereine"><a href="https://www.facebook.com/villereine">VilleReine.ca</a></blockquote></div></div>
+  </div>
+</aside>

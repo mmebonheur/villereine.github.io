@@ -1,0 +1,87 @@
+$gutter: 30px;
+$grid-gutter-width: 30px;
+
+.row {
+  @include clearfix;
+
+  margin-left:  ($gutter / -2);
+  margin-right: ($gutter / -2);
+}
+
+.col-1-2,
+.col-1-3,
+.col-1-4,
+.col-1-6,
+.col-1-8,
+.col-2-3,
+.col-3-4 {
+  float: left;
+  position: relative;
+  // Prevent columns from collapsing when empty
+  min-height: 1px;
+  // Inner gutter via padding
+  padding-left:  ($grid-gutter-width / 2);
+  padding-right: ($grid-gutter-width / 2);
+}
+
+@media (min-width: $breakpoint-lg) {
+  .col-1-2 {
+    width: percentage(1 / 2);
+  }
+
+  .col-1-3 {
+    width: percentage(1 / 3);
+  }
+
+  .col-1-4 {
+    width: percentage(1 / 4);
+  }
+
+  .col-1-6 {
+    width: percentage(1 / 6);
+  }
+
+  .col-1-8 {
+    width: percentage(1 / 8);
+  }
+
+  .col-2-3 {
+    width: percentage(2 / 3);
+  }
+
+  .col-3-4 {
+    width: percentage(3 / 4);
+  }
+
+  .col-offset-1-3 {
+    margin-left: percentage(1 / 3);
+  }
+
+  .col-offset-1-4 {
+    margin-left: percentage(1 / 4);
+  }
+
+  .col-offset-1-6 {
+    margin-left: percentage(1 / 6);
+  }
+
+  .col-offset-1-8 {
+    margin-left: percentage(1 / 8);
+  }
+
+  .col-push-1-3 {
+    left: percentage(1 / 3);
+  }
+
+  .col-push-1-4 {
+    left: percentage(1 / 4);
+  }
+
+  .col-pull-2-3 {
+    right: percentage(2 / 3);
+  }
+
+  .col-pull-3-4 {
+    right: percentage(3 / 4);
+  }
+}

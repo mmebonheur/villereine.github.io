@@ -1,0 +1,40 @@
+@mixin clearfix {
+  &:before,
+  &:after {
+    content: " ";
+    display: table;
+  }
+
+  &:after {
+    clear: both;
+  }
+}
+
+.clearfix {
+  @include clearfix;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-muted {
+  color: $color-muted;
+}
+
+.text-sm {
+  font-size: 16px;
+}
+
+.show-lg {
+  display: none;
+}
+
+@media (min-width: $breakpoint-lg) {
+  .hide-lg {
+    display: none;
+  }
+  .show-lg {
+    display: inherit;
+  }
+}
